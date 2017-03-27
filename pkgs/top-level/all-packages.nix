@@ -6514,9 +6514,7 @@ with pkgs;
     ocaml = ocaml_4_02;
   };
 
-  framac = callPackage ../development/tools/analysis/frama-c {
-    coq = coq_8_4;
-  };
+  framac = callPackage ../development/tools/analysis/frama-c { };
 
   frame = callPackage ../development/libraries/frame { };
 
