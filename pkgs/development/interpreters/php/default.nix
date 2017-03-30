@@ -308,7 +308,7 @@ let
 
       stripDebugList = "bin sbin lib modules";
 
-      outputs = [ "out" "dev" ];
+      /*outputs = [ "out" "dev" ];*/
 
     });
 
