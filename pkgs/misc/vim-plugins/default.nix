@@ -647,11 +647,11 @@ rec {
   };
 
   vim-elixir = buildVimPluginFrom2Nix { # created by nix#NixDerivation
-    name = "vim-elixir-2017-02-21";
+    name = "vim-elixir-2017-03-29";
     src = fetchgit {
       url = "https://github.com/elixir-lang/vim-elixir";
-      rev = "9524e66ee03a36ef1d5913c7f42c3dd9b235146e";
-      sha256 = "0n7v2kfzqifm527pbh8d08xmdzj8rmbhnnvs22hyxv2ij06lzzn2";
+      rev = "9482415ab27fddf8125524f54d9e500bb9541756";
+      sha256 = "1layanqayf2arg8cvpsx768p544znwsvwispnk01d0c73d2p5llq";
     };
     dependencies = [];
 
@@ -702,11 +702,11 @@ rec {
   };
 
   vim-go = buildVimPluginFrom2Nix { # created by nix#NixDerivation
-    name = "vim-go-2017-02-19";
+    name = "vim-go-1.12";
     src = fetchgit {
       url = "https://github.com/fatih/vim-go";
-      rev = "b9c81562630e9dfc098d25814c16bedcfcf9ffa9";
-      sha256 = "0r5r4laqd4jwqc14lkjyccz3ijjzz366r0zgqw5cybspnf622f9a";
+      rev = "26362e4bfcd7601da5b8fcf0041744962766ef0c";
+      sha256 = "19073xxam34vkwdsrqv170f6f6vc9yy8m4034r1l8m9lf67zqla9";
     };
     dependencies = [];
 
