@@ -741,7 +741,7 @@ with pkgs;
   catclock = callPackage ../applications/misc/catclock { };
 
   cde = callPackage ../tools/package-management/cde { };
-  
+
   cdemu-daemon = callPackage ../misc/emulators/cdemu/daemon.nix { };
 
   cdemu-client = callPackage ../misc/emulators/cdemu/client.nix { };
@@ -12712,6 +12712,10 @@ with pkgs;
   };
 
   abook = callPackage ../applications/misc/abook { };
+
+  abyss-assembler = callPackage ../applications/science/genetics/abyss {
+    inherit openmpi;
+  };
 
   acd-cli = callPackage ../applications/networking/sync/acd_cli {
     inherit (python35Packages)
